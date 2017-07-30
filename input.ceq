@@ -4,4 +4,3 @@ newline
 print You run Cequal scripts by naming them 'input.ceq' and then putting them in the same directory as your compiler.
 newline
 print Or you can peak inside and modify this script by looking at the current 'input.ceq' that exists in the compiler directory.
-input a=hi
