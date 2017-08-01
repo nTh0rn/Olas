@@ -56,8 +56,15 @@ We use `echo|set /p=%line%` so that every print function prints onto the same li
 Finally, we end this line and go back so the compiler can do the next line.
 However, we still need to talk about testing if our argument is a variable.
 
-This is done in the if-statement you can see. In summary, it checks for the '`' character. If it detects it, it sends it to a different area of code with the same name of the function, but with '_var' added.
-You can see above it sends it to 'print_var'. Under print_var, it removes our variable identifiers with `set line=%line:`=%` and spaces with `set line=%line: =%`.
+This is done in the if-statement you can see. In summary, it checks for the '&#96;' character. If it detects it, it sends it to a different area of code with the same name of the function, but with '_var' added.
+You can see above it sends it to 'print_var'. Under print_var, it removes our variable identifiers with:
+```batch
+set line=%line:&#96;=%
+```
+and spaces with:
+```batch 
+set line=%line: =%
+```
 And then it echos the variable with `echo|set /p=!x%line%!`. Finally it sends the code back up to the line-reader, ready for the next line of code.
 
 If you are still confused, read through ceq-compiler.bat and take a look at some more of the functions.
