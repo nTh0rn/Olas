@@ -7,9 +7,9 @@ if not exist "firstsetup.txt" (
 goto notfirsttime
 ) else (
 echo FIRST TIME SETUP
-echo Would you like to install/update Cequal into your command line?
+echo Would you like to install/update Olas into your command line?
 echo.
-echo (Doing so would allow you to open up Command Prompt and type commands like 'ceq script.ceq')
+echo (Doing so would allow you to open up Command Prompt and type commands like 'olas script.ola')
 echo.
 echo This prompt will open show up only on first setup. To see it again later, add 'firstsetup.txt' to this directory.
 echo.
@@ -19,7 +19,7 @@ echo.
 set /p ui=(Y/N):
 
 if "%ui%"=="Y" (
-copy "%~dp0/ceq.bat" "C:\WINDOWS\system32"
+copy "%~dp0/olas.bat" "C:\WINDOWS\system32"
 del firstsetup.txt
 goto notfirsttime
 )
@@ -40,7 +40,7 @@ echo.
 echo Please type in the directory to the script you'd like to open.
 echo.
 echo Commands:
-echo filename.ceq (Select script to run)
+echo filename.ola (Select script to run)
 echo showdir (Show files in directory)
 echo cd .. (Move up a directory)
 echo cd pathname (Move into a directory)
