@@ -1,0 +1,23 @@
+
+print Welcome to Cequal's Square-Root Calculator.
+newline
+print Radicand?
+newline
+input radicand
+newline
+print Guess?
+newline
+input guess
+newline
+mathstart result
+mathadd `radicand`
+mathdiv `guess`
+mathend
+mathstart avg
+mathadd `guess`
+mathadd `result`
+mathdiv 2
+mathend
+newline
+print `avg`
+goto 11

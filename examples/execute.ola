@@ -1,0 +1,6 @@
+
+print This is an example of the execute function.
+newline
+print What would you like to execute?
+input program
+execute `program`

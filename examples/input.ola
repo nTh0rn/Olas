@@ -1,0 +1,10 @@
+
+print This is an example of the input function.
+newline
+newline
+print What is your name?
+input name
+newline
+print Hello, 
+print `name`
+print .

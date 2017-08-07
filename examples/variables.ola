@@ -1,0 +1,12 @@
+
+decvar firstline
+setvar This is an example of the 2 variable functions.
+print `firstline`
+newline
+decvar secondline
+setvar This text has been stored in a variable and is being printed as a variable.
+print `secondline`
+newline
+decvar thirdline
+setvar Look at this script's source code to see how it works.
+print `thirdline`

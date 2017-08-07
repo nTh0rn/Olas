@@ -1,8 +1,8 @@
-001 - Whitespace detected. Refrain from the use of whitespace in your code so the compiler can work properly (With the exception of the first line of your 'input.ceq' script).
-002 - Unknown function used. You can find a list of current functions and how to use them in 'documentation.txt'.
-003 - Non-existant file called for in 'execute' function.
-004 - Argument given to function that does not accept inputs.
-
+001 - Whitespace detected. Refrain from the use of whitespace in your code besides the first line so the compiler can work properly.
+002 - Unknown function used. You can find a list of current functions and how to use them in 'README.md'.
+003 - Non-existant file called for.
+004 - Argument given to function that does not accept inputs (check for spaces).
+005 - Variable called for that does not exist.
 
 
 

@@ -1,14 +1,14 @@
-# Cequal
-Most of my projects are just tests to see if I can do it. Cequal is one of these projects.
+# Olas
+Most of my projects are just tests to see if I can do it. Olas is one of these projects.
 
-Cequal is a simple scripting language made inside the scripting language Batch.
+Olas is a simple scripting language made inside the scripting language Batch.
 
 It is a horrible and useless language and should never be used.
 
 # Documentation
 
 ## Syntax
-Cequal scripts **MUST** start with 1 single blank line. This means you start writing your code on line 2.
+Olas scripts **MUST** start with 1 single blank line. This means you start writing your code on line 2.
 
 After the first line, there should also never, **never** be any whitespace in your code. This will break the compiler.
 
@@ -29,7 +29,7 @@ print `x`
 ```
 
 ## Limitations
-Cequal has many limitations.
+Olas has many limitations.
 
 These limitations are because a function can intake only 1 input/type of input at a time.
 
@@ -58,7 +58,7 @@ If the variable 'name' is equal to 'John', then the output above will be:
 `Hello John!`
 
 ## Functions
-Currently the functions included in Cequel are:
+Currently the functions included in Olas are:
 
 `print`
 

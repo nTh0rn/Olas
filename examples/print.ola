@@ -1,0 +1,4 @@
+
+print This is how you print text.
+print  However when you run this script, you will see it prints text on the same line for each print function.
+print  To move onto a new line, look into the 'newline' function.
