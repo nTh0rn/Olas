@@ -1,0 +1,9 @@
+
+showdir
+newline
+print Directory?
+newline
+input ui
+cd `ui`
+newline
+showdir

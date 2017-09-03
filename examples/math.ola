@@ -1,0 +1,92 @@
+
+-func start
+print Welcome to the Olas calculator.
+newline
+print Would you like to Add, Subtract, Multiply, Or Divide?
+newline
+input ui
+newline
+ifval1 `ui`
+ifcond eq
+ifval2 a
+ifdo goto add
+ifval1 `ui`
+ifcond eq
+ifval2 s
+ifdo goto sub
+ifval1 `ui`
+ifcond eq
+ifval2 m
+ifdo goto mult
+ifval1 `ui`
+ifcond eq
+ifval2 d
+ifdo goto div
+ifelsedo print None of your inputs were valid.
+goto start
+-func add
+newline
+print First number?
+newline
+input num1
+newline
+print Next number?
+newline
+input num2
+newline
+mathstart result
+mathadd `num1`
+mathadd `num2`
+mathend
+print `result`
+goto done
+-func sub
+newline
+print First number?
+newline
+input num1
+newline
+print Next number?
+newline
+input num2
+newline
+mathstart result
+mathadd `num1`
+mathsub `num2`
+mathend
+print `result`
+goto done
+-func mult
+newline
+print First number?
+newline
+input num1
+newline
+print Next number?
+newline
+input num2
+newline
+mathstart result
+mathadd `num1`
+mathmult `num2`
+mathend
+print `result`
+goto done
+-func div
+newline
+print First number?
+newline
+input num1
+newline
+print Next number?
+newline
+input num2
+newline
+mathstart result
+mathadd `num1`
+mathdiv `num2`
+mathend
+print `result`
+-func done
+newline
+print Done

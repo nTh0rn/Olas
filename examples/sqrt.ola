@@ -8,6 +8,7 @@ newline
 print Guess?
 newline
 input guess
+-func start
 newline
 mathstart result
 mathadd `radicand`
@@ -20,4 +21,4 @@ mathdiv 2
 mathend
 newline
 print `avg`
-goto 11
+goto start

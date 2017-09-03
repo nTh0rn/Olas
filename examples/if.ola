@@ -1,0 +1,10 @@
+
+decvar x
+setvar 2
+decvar y
+setvar 1
+ifval1 `x`
+ifcond gt
+ifval2 `y`
+ifdo print Variable x is greater than variable y.
+ifelsedo print Variable y is greater than variable x.
