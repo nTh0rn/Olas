@@ -3,5 +3,5 @@ Olas is a programming language made in the windows language Batch. It was starte
 
 Olas is not intended to actually be a good choice as a programming language. It exists only as an experience ran by [Nick T.](https://github.com/NikTee)
 
-* [DOCUMENTATION](https://github.com/NikTee/Olas/wiki/Documentations)
+* [DOCUMENTATION](https://github.com/NikTee/Olas/wiki/Documentation)
 * [SYNTAX](https://github.com/NikTee/Olas/wiki/Syntax)
